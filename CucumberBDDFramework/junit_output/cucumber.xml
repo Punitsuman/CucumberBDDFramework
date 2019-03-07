@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.142018">
+<testcase classname="My second feature file" name="scenario without any annotation" time="0.140406">
+<system-out><![CDATA[* Login to application......................................................passed
+* Search any claim..........................................................passed
+* User should be navigate to View Claim Documents page......................passed
+* Login to application with user "username" and "password"..................passed
+]]></system-out>
+</testcase>
+<testcase classname="My second feature file" name="scenario outline with examples" time="0.000797">
+<system-out><![CDATA[Given Login to application with user "naveenk" and "test@123"...............passed
+When Search any claim.......................................................passed
+Then User should be navigate to View Claim Documents page...................passed
+]]></system-out>
+</testcase>
+<testcase classname="My second feature file" name="scenario outline with examples 2" time="0.000815">
+<system-out><![CDATA[Given Login to application with user "punit" and "temp@456".................passed
+When Search any claim.......................................................passed
+Then User should be navigate to View Claim Documents page...................passed
+]]></system-out>
+</testcase>
+</testsuite>
