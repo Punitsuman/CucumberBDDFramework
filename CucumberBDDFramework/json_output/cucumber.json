@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 657762,
+              "duration": 292961,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 472563,
+              "duration": 136683,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 164674,
+              "duration": 55513,
               "status": "passed"
             },
             "match": {
@@ -33,7 +33,7 @@
           },
           {
             "result": {
-              "duration": 155343,
+              "duration": 55980,
               "status": "passed"
             },
             "match": {
@@ -48,7 +48,7 @@
         "after": [
           {
             "result": {
-              "duration": 65310,
+              "duration": 208992,
               "status": "passed"
             },
             "match": {
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 57380,
+              "duration": 187066,
               "status": "passed"
             },
             "match": {
@@ -66,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 78838,
+              "duration": 77439,
               "status": "passed"
             },
             "match": {
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 73241,
+              "duration": 74173,
               "status": "passed"
             },
             "match": {
@@ -88,7 +88,7 @@
         "steps": [
           {
             "result": {
-              "duration": 135744382,
+              "duration": 142245964,
               "status": "passed"
             },
             "line": 7,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 69041,
+              "duration": 66243,
               "status": "passed"
             },
             "line": 8,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 60645,
+              "duration": 176803,
               "status": "passed"
             },
             "line": 9,
@@ -124,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 2806918,
+              "duration": 3259422,
               "status": "passed"
             },
             "line": 10,
@@ -149,254 +149,6 @@
           {
             "line": 4,
             "name": "@Second"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 149745,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP()"
-            }
-          },
-          {
-            "result": {
-              "duration": 91900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 49915,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.beforeFirst()"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "scenario outline with examples",
-        "description": "",
-        "id": "my-second-feature-file;scenario-outline-with-examples;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 51315,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.afterFirst()"
-            }
-          },
-          {
-            "result": {
-              "duration": 74640,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 69508,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 193596,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Login to application with user \"naveenk\" and \"test@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "naveenk",
-                  "offset": 32
-                },
-                {
-                  "val": "test@123",
-                  "offset": 46
-                }
-              ],
-              "location": "MyStepDef2PS.login_to_application_with_user_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 61577,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Search any claim",
-            "match": {
-              "location": "MyStepDef2PS.search_any_claim()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 54580,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User should be navigate to View Claim Documents page",
-            "match": {
-              "location": "MyStepDef2PS.user_should_be_navigate_to_View_Claim_Documents_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@First"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 146480,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP()"
-            }
-          },
-          {
-            "result": {
-              "duration": 92833,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 55514,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.beforeFirst()"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "scenario outline with examples",
-        "description": "",
-        "id": "my-second-feature-file;scenario-outline-with-examples;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 49916,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.afterFirst()"
-            }
-          },
-          {
-            "result": {
-              "duration": 79772,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 86768,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 190798,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Login to application with user \"punit\" and \"temp@456\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "punit",
-                  "offset": 32
-                },
-                {
-                  "val": "temp@456",
-                  "offset": 44
-                }
-              ],
-              "location": "MyStepDef2PS.login_to_application_with_user_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 58312,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Search any claim",
-            "match": {
-              "location": "MyStepDef2PS.search_any_claim()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 54114,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User should be navigate to View Claim Documents page",
-            "match": {
-              "location": "MyStepDef2PS.user_should_be_navigate_to_View_Claim_Documents_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@First"
           }
         ]
       }
